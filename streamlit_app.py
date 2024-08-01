@@ -2,7 +2,9 @@ import altair as alt
 import numpy as np
 import pandas as pd
 import streamlit as st
+import multiprocessing as mp 
 
+st.write(f"cpu cores count : {mp.cpu_count()}")
 """
 # Welcome to Streamlit!
 
